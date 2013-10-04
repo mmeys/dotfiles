@@ -69,3 +69,6 @@ setopt EXTENDED_GLOB
 
 # Local config
 [[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
+
+#Autojump
+[[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
