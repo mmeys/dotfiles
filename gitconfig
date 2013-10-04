@@ -21,3 +21,10 @@
   ff = only
 [include]
   path = .gitconfig.local
+[user]
+  name = Martin Meys
+  email = martin.meys@gmail.com
+[credential]
+  helper = osxkeychain
+[core]
+  editor = subl
