@@ -14,7 +14,7 @@ setopt auto_cd
 
 # use vim as the visual editor
 export VISUAL=vim
-export EDITOR=$VISUAL
+export EDITOR="subl -w"
 
 # vi mode
 bindkey -v
@@ -70,5 +70,5 @@ setopt EXTENDED_GLOB
 # Local config
 [[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
 
-#Autojump
-[[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
+#Theme
+export ZSH_THEME="miloshadzic"
