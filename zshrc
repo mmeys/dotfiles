@@ -40,7 +40,7 @@ ZSH_THEME="miloshadzic"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git autojump)
+plugins=(git autojump zsh-syntax-highlighting)
 
 
 # Try to correct command line spelling

@@ -1,4 +1,4 @@
-# Bundler
+#Bundler
 alias b="bundle"
 
 # Rails
@@ -9,3 +9,6 @@ alias z="zeus"
 alias gs="git status"
 alias rc="zeus c"
 alias rs="zeus s"
+alias gcma="git commit -a -m "
+alias gp="git push"
+alias gpull="git pull"
